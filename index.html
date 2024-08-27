@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 1. Title -->
+    <title>Basic HTML Template</title>
+
+    <!-- 2. Meta tag for display -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 3. Meta tag for character set -->
+    <meta charset="UTF-8">
+
+    <!-- Basic styling for the page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input[type="text"], form input[type="email"], form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 4. Header -->
+    <header>
+        <h1>Welcome to the Basic HTML Template</h1>
+    </header>
+
+    <!-- 5. Heading -->
+    <h2>About This Template</h2>
+
+    <!-- 6. Paragraph -->
+    <p>This is a basic HTML template that covers essential elements like titles, meta tags, forms, tables, and more. I'll Use this template as a starting point for my web projects.</p>
+
+    <!-- 7. Basic Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- 8. Table displaying common user information -->
+    <h2>User Information</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td>+123456789</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>jane.smith@example.com</td>
+            <td>+987654321</td>
+        </tr>
+        <tr>
+            <td>Mike Johnson</td>
+            <td>mike.johnson@example.com</td>
+            <td>+1230984567</td>
+        </tr>
+    </table>
+
+    <!-- 9. An image -->
+    <h2>Our Logo</h2>
+    <img src="logo.png" alt="Logo" style="max-width: 100%; height: auto;">
+
+    <!-- 10. An external link to Google -->
+    <p>Visit <a href="https://google.com" target="_blank">Google</a> for more information.</p>
+
+</body>
+</html>
